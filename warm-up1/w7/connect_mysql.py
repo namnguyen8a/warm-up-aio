@@ -11,6 +11,7 @@ try:
         host=os.getenv("DB_HOST"),
         user=os.getenv("DB_USER"),
         password=os.getenv("DB_PASSWORD")
+        # ssl_disabled=True
     )
     cursor = conn.cursor()
 
