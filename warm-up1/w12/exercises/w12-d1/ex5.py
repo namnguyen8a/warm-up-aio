@@ -11,8 +11,8 @@ import numpy as np
 st.markdown("Biểu đồ nhiệt của hàm z = $x^2$ + $y^2$")
 
 # Define grid range and resolution
-x = np.linspace(-10.0, 10.0, 100)
-y = np.linspace(-10.0, 10.0, 100)
+x = np.linspace(-2*np.pi, 2*np.pi, 100)
+y = np.linspace(-2*np.pi, 2*np.pi, 100)
 X, Y = np.meshgrid(x, y)
 
 Z = X**2 + Y**2
