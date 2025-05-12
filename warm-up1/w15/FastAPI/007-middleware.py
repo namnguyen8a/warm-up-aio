@@ -38,4 +38,5 @@ User → /hello
 |
 | (5) Trả response về cho người dùng
 
+curl -i http://127.0.0.1:8000/hello for testing
 """
