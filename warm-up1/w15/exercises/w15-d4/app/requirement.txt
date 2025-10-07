@@ -1,0 +1,10 @@
+fastapi 
+uvicorn[standard]
+fastapi[standard]
+pymysql 
+python-dotenv 
+requests 
+streamlit 
+google-genai 
+pydantic
+cryptography
